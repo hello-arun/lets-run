@@ -11,7 +11,7 @@ The problems are provided by [Apna-College](https://www.youtube.com/c/ApnaColleg
 
 - [x] 10-001-max-min-array
 - [x] 10-002-rev-array
-- [ ] 10-003
+- [x] <font color="red">10-003-max-sum-sub-array</font>
 - [ ] 10-004
 - [ ] 10-005
 - [ ] 10-006
