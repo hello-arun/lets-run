@@ -9,7 +9,7 @@ The problems are provided by [Apna-College](https://www.youtube.com/c/ApnaColleg
 
 ## Problems
 
-- [ ] 10-001
+- [x] 10-001-max-min-array
 - [ ] 10-002
 - [ ] 10-003
 - [ ] 10-004
