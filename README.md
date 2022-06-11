@@ -17,7 +17,8 @@ The problems are provided by [Apna-College](https://www.youtube.com/c/ApnaColleg
 - [x] 10-004-10-004-contains-duplicates
 - [x] 10-005-chocolate-distribution
 - [x] 10-006-search-sorted-pivoted
-- [ ] 10-007
+- [x] 10-007-10-007-next-permutation  
+(A moment of silence for the poor souls that get [this](./10-007-next-permutation/) interview question without having seen it before)  
 - [ ] 10-008
 - [ ] 10-009
 - [ ] 10-010
