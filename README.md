@@ -19,8 +19,8 @@ The problems are provided by [Apna-College](https://www.youtube.com/c/ApnaColleg
 - [x] 10-006-search-sorted-pivoted
 - [x] 10-007-10-007-next-permutation  
 (A moment of silence for the poor souls that get [this](./10-007-next-permutation/) interview question without having seen it before)  
-- [ ] 10-008
-- [ ] 10-009
+- [x] 10-008-best-time-buy-cell-stock
+- [x] 10-009-repeat-and-missing-num
 - [ ] 10-010
 - [ ] 10-011
 - [ ] 10-012
