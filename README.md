@@ -7,6 +7,8 @@ The problems are provided by [Apna-College](https://www.youtube.com/c/ApnaColleg
 
 [Link to probelms](https://docs.google.com/spreadsheets/d/1hXserPuxVoWMG9Hs7y8wVdRCJTcj3xMBAEYUOXQ5Xag/edit#gid=0)
 
+[problem pdf](./__ref/DSA-by-Apna-College.pdf) can be opened and read in VS-code by using add on [analytic-signal.preview-pdf](https://marketplace.visualstudio.com/items?itemName=analytic-signal.preview-pdf)
+
 ## Problems
 
 - [x] 10-001-max-min-array
@@ -14,7 +16,7 @@ The problems are provided by [Apna-College](https://www.youtube.com/c/ApnaColleg
 - [x] **10-003-max-sum-sub-array**
 - [x] 10-004-10-004-contains-duplicates
 - [x] 10-005-chocolate-distribution
-- [ ] 10-006
+- [x] 10-006-search-sorted-pivoted
 - [ ] 10-007
 - [ ] 10-008
 - [ ] 10-009
