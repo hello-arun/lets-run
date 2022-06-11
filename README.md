@@ -12,7 +12,7 @@ The problems are provided by [Apna-College](https://www.youtube.com/c/ApnaColleg
 - [x] 10-001-max-min-array
 - [x] 10-002-rev-array
 - [x] **10-003-max-sum-sub-array**
-- [ ] 10-004
+- [x] 10-004-10-004-contains-duplicates
 - [ ] 10-005
 - [ ] 10-006
 - [ ] 10-007
