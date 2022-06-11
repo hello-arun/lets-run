@@ -13,7 +13,7 @@ The problems are provided by [Apna-College](https://www.youtube.com/c/ApnaColleg
 - [x] 10-002-rev-array
 - [x] **10-003-max-sum-sub-array**
 - [x] 10-004-10-004-contains-duplicates
-- [ ] 10-005
+- [x] 10-005-chocolate-distribution
 - [ ] 10-006
 - [ ] 10-007
 - [ ] 10-008
