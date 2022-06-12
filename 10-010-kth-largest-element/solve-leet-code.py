@@ -1,4 +1,4 @@
-# Solution as submitted by me on leet-code
+# Solution as submitted by me on leet-code https://leetcode.com/problems/kth-largest-element-in-an-array/
 class Solution:
     def quick_sort(self,A,K, lo, hi):
         if lo >= hi or lo < 0:

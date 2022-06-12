@@ -14,7 +14,7 @@ The problems are provided by [Apna-College](https://www.youtube.com/c/ApnaColleg
 - [x] 10-001-max-min-array
 - [x] 10-002-rev-array
 - [x] **10-003-max-sum-sub-array**
-- [x] 10-004-10-004-contains-duplicates
+- [x] 10-004-contains-duplicates
 - [x] 10-005-chocolate-distribution
 - [x] 10-006-search-sorted-pivoted
 - [x] 10-007-next-permutation  
@@ -22,7 +22,7 @@ The problems are provided by [Apna-College](https://www.youtube.com/c/ApnaColleg
 - [x] 10-008-best-time-buy-cell-stock
 - [x] 10-009-repeat-and-missing-num
 - [x] **10-010-kth-largest-element**
-- [ ] 10-011
+- [x] 10-011-trapping-rain-water
 - [ ] 10-012
 - [ ] 10-013
 - [ ] 10-014
