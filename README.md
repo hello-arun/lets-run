@@ -26,7 +26,7 @@ The problems are provided by [Apna-College](https://www.youtube.com/c/ApnaColleg
 - [x] 10-012-product-array-itself
 - [x] 10-013-max-product-subArray
 - [x] 10-014-min-in-rotated-sorted-array
-- [ ] 10-015
+- [x] 10-015-search-in-rotated-sorted
 - [ ] 10-016
 - [ ] 10-017
 - [ ] 10-018
