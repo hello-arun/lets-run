@@ -25,7 +25,7 @@ The problems are provided by [Apna-College](https://www.youtube.com/c/ApnaColleg
 - [x] 10-011-trapping-rain-water
 - [x] 10-012-product-array-itself
 - [x] 10-013-max-product-subArray
-- [ ] 10-014
+- [x] 10-014-min-in-rotated-sorted-array
 - [ ] 10-015
 - [ ] 10-016
 - [ ] 10-017
