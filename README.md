@@ -35,7 +35,7 @@ The problems are provided by [Apna-College](https://www.youtube.com/c/ApnaColleg
 - [ ] 10-021
 - [ ] 10-022
 - [ ] 10-023
-- [ ] 10-024
+- [x] 10-024-subArray-div-k
 - [ ] 10-025
 - [x] 10-026-Mo-algo
 
