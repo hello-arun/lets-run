@@ -23,8 +23,8 @@ The problems are provided by [Apna-College](https://www.youtube.com/c/ApnaColleg
 - [x] 10-009-repeat-and-missing-num
 - [x] **10-010-kth-largest-element**
 - [x] 10-011-trapping-rain-water
-- [ ] 10-012
-- [ ] 10-013
+- [x] 10-012-product-array-itself
+- [x] 10-013-max-product-subArray
 - [ ] 10-014
 - [ ] 10-015
 - [ ] 10-016
