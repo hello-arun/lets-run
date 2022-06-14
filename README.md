@@ -30,7 +30,7 @@ The problems are provided by [Apna-College](https://www.youtube.com/c/ApnaColleg
 - [ ] 10-016
 - [ ] 10-017
 - [ ] 10-018
-- [ ] 10-019
+- [x] 10-019-kth-smallest-element
 - [ ] 10-020
 - [ ] 10-021
 - [ ] 10-022
