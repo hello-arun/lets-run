@@ -37,7 +37,7 @@ The problems are provided by [Apna-College](https://www.youtube.com/c/ApnaColleg
 - [ ] 10-023
 - [ ] 10-024
 - [ ] 10-025
-- [ ] 10-026
+- [x] 10-026-Mo-algo
 
 - [ ] 15-001
 - [ ] 15-002
