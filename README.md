@@ -34,9 +34,9 @@ The problems are provided by [Apna-College](https://www.youtube.com/c/ApnaColleg
 - [ ] 10-020
 - [ ] 10-021
 - [ ] 10-022
-- [ ] 10-023
+- [x] 10-023-space-optimization
 - [x] 10-024-subArray-div-k
-- [ ] 10-025
+- [x] 10-025-all-comb-of-size-r
 - [x] 10-026-Mo-algo
 
 - [ ] 15-001
