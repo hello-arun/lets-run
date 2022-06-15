@@ -62,7 +62,7 @@ The problems are provided by [Apna-College](https://www.youtube.com/c/ApnaColleg
 - [ ] 15-021
 - [ ] 15-022
 
-- [ ] 20-001
+- [x] 20-001-zigizag-matrix-travel
 - [ ] 20-002
 - [ ] 20-003
 - [ ] 20-004
