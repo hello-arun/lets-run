@@ -1,6 +1,6 @@
 ## About
 
-Task is to complete 400-coding questions as early as possible. Coding questions along with the links are available in 
+Task is to complete 300-coding questions as early as possible. Coding questions along with the links are available in 
 [ref](./__ref).
 
 The problems are provided by [Apna-College](https://www.youtube.com/c/ApnaCollegeOfficial).
@@ -8,6 +8,8 @@ The problems are provided by [Apna-College](https://www.youtube.com/c/ApnaColleg
 [Link to probelms](https://docs.google.com/spreadsheets/d/1hXserPuxVoWMG9Hs7y8wVdRCJTcj3xMBAEYUOXQ5Xag/edit#gid=0)
 
 [problem pdf](./__ref/DSA-by-Apna-College.pdf) can be opened and read in VS-code by using add on [analytic-signal.preview-pdf](https://marketplace.visualstudio.com/items?itemName=analytic-signal.preview-pdf)
+
+Completed **21/300** and counting....
 
 ## Problems
 
