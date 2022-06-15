@@ -9,9 +9,8 @@ The problems are provided by [Apna-College](https://www.youtube.com/c/ApnaColleg
 
 [problem pdf](./__ref/DSA-by-Apna-College.pdf) can be opened and read in VS-code by using add on [analytic-signal.preview-pdf](https://marketplace.visualstudio.com/items?itemName=analytic-signal.preview-pdf)
 
-Completed **21/300** and counting....
 
-## Problems
+## Problems ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/07)
 
 - [x] 10-001-max-min-array
 - [x] 10-002-rev-array
