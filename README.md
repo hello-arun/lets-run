@@ -45,7 +45,7 @@ The problems are provided by [Apna-College](https://www.youtube.com/c/ApnaColleg
 - [x] 15-003-valid-parenthesis
 - [x] 15-004-remove-consecutive-chars
 - [ ] 15-005
-- [ ] 15-006
+- [x] 15-006-mobile-keypad
 - [ ] 15-007
 - [ ] 15-008
 - [ ] 15-009
