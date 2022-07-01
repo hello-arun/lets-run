@@ -10,7 +10,7 @@ The problems are provided by [Apna-College](https://www.youtube.com/c/ApnaColleg
 [problem pdf](./__ref/DSA-by-Apna-College.pdf) can be opened and read in VS-code by using add on [analytic-signal.preview-pdf](https://marketplace.visualstudio.com/items?itemName=analytic-signal.preview-pdf)
 
 <!-- Total 300 Problems -->
-## Problems ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/08)
+## Problems ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/09)
 
 - [x] 10-001-max-min-array
 - [x] 10-002-rev-array
@@ -46,7 +46,7 @@ The problems are provided by [Apna-College](https://www.youtube.com/c/ApnaColleg
 - [x] 15-004-remove-consecutive-chars
 - [ ] 15-005
 - [x] 15-006-mobile-keypad
-- [ ] 15-007
+- [x] 15-007-count-duplicates(TRASH)
 - [ ] 15-008
 - [ ] 15-009
 - [ ] 15-010
