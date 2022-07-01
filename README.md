@@ -43,7 +43,7 @@ The problems are provided by [Apna-College](https://www.youtube.com/c/ApnaColleg
 - [x] 15-001-valid-palindrome
 - [x] 15-002-valid-anagram
 - [x] 15-003-valid-parenthesis
-- [ ] 15-004
+- [x] 15-004-remove-consecutive-chars
 - [ ] 15-005
 - [ ] 15-006
 - [ ] 15-007
