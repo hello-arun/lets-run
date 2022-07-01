@@ -40,9 +40,9 @@ The problems are provided by [Apna-College](https://www.youtube.com/c/ApnaColleg
 - [x] 10-025-all-comb-of-size-r
 - [x] 10-026-Mo-algo
 
-- [ ] 15-001
-- [ ] 15-002
-- [ ] 15-003
+- [x] 15-001-valid-palindrome
+- [x] 15-002-valid-anagram
+- [x] 15-003-valid-parenthesis
 - [ ] 15-004
 - [ ] 15-005
 - [ ] 15-006
