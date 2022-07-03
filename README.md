@@ -47,7 +47,7 @@ The problems are provided by [Apna-College](https://www.youtube.com/c/ApnaColleg
 - [ ] 15-005
 - [x] 15-006-mobile-keypad
 - [x] 15-007-count-duplicates(TRASH)
-- [ ] 15-008
+- [x] 15-008-longest-non-repeating-substr
 - [ ] 15-009
 - [ ] 15-010
 - [ ] 15-011
