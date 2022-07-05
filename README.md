@@ -11,6 +11,7 @@ The problems are provided by [Apna-College](https://www.youtube.com/c/ApnaColleg
 
 <!-- Total 300 Problems -->
 ## Problems ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/10)
+**10% milestone achieved**
 
 - [x] 10-001-max-min-array
 - [x] 10-002-rev-array
