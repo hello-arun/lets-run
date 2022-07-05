@@ -10,7 +10,7 @@ The problems are provided by [Apna-College](https://www.youtube.com/c/ApnaColleg
 [problem pdf](./__ref/DSA-by-Apna-College.pdf) can be opened and read in VS-code by using add on [analytic-signal.preview-pdf](https://marketplace.visualstudio.com/items?itemName=analytic-signal.preview-pdf)
 
 <!-- Total 300 Problems -->
-## Problems ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/09)
+## Problems ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/10)
 
 - [x] 10-001-max-min-array
 - [x] 10-002-rev-array
@@ -75,7 +75,7 @@ The problems are provided by [Apna-College](https://www.youtube.com/c/ApnaColleg
 - [ ] 20-009
 - [ ] 20-010
 
-- [ ] 25-001
+- [x] 25-001-permute-arr-pair-sum
 - [ ] 25-002
 - [ ] 25-003
 - [ ] 25-004
