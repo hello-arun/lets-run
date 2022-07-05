@@ -48,7 +48,8 @@ The problems are provided by [Apna-College](https://www.youtube.com/c/ApnaColleg
 - [x] 15-006-mobile-keypad
 - [x] 15-007-count-duplicates(TRASH)
 - [x] 15-008-longest-non-repeating-substr
-- [ ] 15-009
+- [x] **15-009-longest-repeating-char-replacement**
+(Understand it's soul, mind bending)
 - [ ] 15-010
 - [ ] 15-011
 - [ ] 15-012
