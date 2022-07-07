@@ -87,9 +87,9 @@ The problems are provided by [Apna-College](https://www.youtube.com/c/ApnaColleg
 - [x] 25-009-max-sum-no-adjacent
 - [x] 25-010-merge-two-sorted-arrays
 - [ ] 25-011
-- [ ] 25-012
+- [x] 25-012-find-duplicates-clever
 - [ ] 25-013
-- [ ] 25-014
+- [x] 25-014-prod-arr-except-itself
 - [ ] 25-015
 - [ ] 25-016
 - [ ] 25-017
