@@ -124,14 +124,14 @@ The problems are provided by [Apna-College](https://www.youtube.com/c/ApnaColleg
 
 - [x] 35-001-rev-linked-list
 - [x] 35-002-cycle-linked-list
-- [ ] 35-003
+- [x] 35-003-merge-two-sorted-array
 - [x] 35-004-delete-node-wo-head
-- [ ] 35-005
-- [ ] 35-006
-- [ ] 35-007
-- [ ] 35-008
-- [ ] 35-009
-- [ ] 35-010
+- [x] 35-005-remove-dup-unsorted
+- [x] 35-006-sort-0s-1s-2s
+- [x] 35-007-mul-two-linked-list
+- [x] 35-008-remove-nth-from-last
+- [x] 35-009-reorder-list
+- [x] 35-010-remove-cycle
 - [ ] 35-011
 - [ ] 35-012
 - [ ] 35-013
