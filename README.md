@@ -10,7 +10,7 @@ The problems are provided by [Apna-College](https://www.youtube.com/c/ApnaColleg
 [problem pdf](./__ref/DSA-by-Apna-College.pdf) can be opened and read in VS-code by using add on [analytic-signal.preview-pdf](https://marketplace.visualstudio.com/items?itemName=analytic-signal.preview-pdf)
 
 <!-- Total 300 Problems -->
-## Problems ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/16)
+## Problems ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/18)
 **10% milestone achieved**
 
 - [x] 10-001-max-min-array
@@ -132,15 +132,15 @@ The problems are provided by [Apna-College](https://www.youtube.com/c/ApnaColleg
 - [x] 35-008-remove-nth-from-last
 - [x] 35-009-reorder-list
 - [x] 35-010-remove-cycle
-- [ ] 35-011
+- [x] 35-011-intersection-linked-list
 - [ ] 35-012
-- [ ] 35-013
-- [ ] 35-014
+- [x] 35-013-zig-zag-linked-list
+- [x] 35-014-rev-dub-linked-list
 - [ ] 35-015
-- [ ] 35-016
+- [x] 35-016-seg-even-odd
 - [ ] 35-017
-- [ ] 35-018
-- [ ] 35-019
+- [x] 35-018-XXXX
+- [x] 35-019-XXXX
 - [ ] 35-020
 - [ ] 35-021
 - [ ] 35-022
