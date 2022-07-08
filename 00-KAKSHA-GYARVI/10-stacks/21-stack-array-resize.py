@@ -17,7 +17,7 @@ class Stack:
         self._size = 0  # _ means a private varible. size 100 seems sufficient
 
     def push(self, val):
-        if self._size==self._capacity:
+        if self._size == self._capacity:
             self.resize(2*self._capacity)
         self.head[self._size] = val
         self._size += 1
@@ -34,17 +34,18 @@ class Stack:
     def isEmpty(self):
         return self._size == 0
 
-    def resize(self, capacity:int):
-        self._capacity=capacity
-        stack=[0]*capacity
+    def resize(self, capacity: int):
+        self._capacity = capacity
+        stack = [0]*capacity
         for i in range(self._size):
             stack[i] = self.head[i]
         self.head = stack
 
+
 if __name__ == "__main__":
-    stack=Stack()
-    for i in range(1,10):
+    stack = Stack()
+    for i in range(1, 10):
         stack.push(i)
         print(f"{i} added, stack capacity: {stack._capacity}")
-    for i in range(1,11):
+    for i in range(1, 11):
         print(f"{stack.pop()} pop, stack capacity: {stack._capacity}")
