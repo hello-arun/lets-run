@@ -10,9 +10,6 @@
 # ・pop(): halve size of array s[] when array is one-quarter full.
 
 
-from turtle import st
-
-
 class Stack:
     def __init__(self) -> None:
         self._capacity = 2  # Initial Capcaity is 100
