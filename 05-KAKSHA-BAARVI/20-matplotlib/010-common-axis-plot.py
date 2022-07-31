@@ -32,7 +32,7 @@ def init(figsize, subplts):
     plt.rc("text", antialiased=True)
     plt.rc("font", **font)
     plt.rc("mathtext", fontset="cm")
-    plt.rc("figure", dpi=100, titlesize=18)
+    plt.rc("figure", titlesize=18)
     plt.rc("axes", labelsize=12, prop_cycle=pallete)
     plt.rc("xtick", labelsize=10, direction="in", top=True, bottom=True)
     plt.rc("ytick", labelsize=10, direction="in", right=True, left=True)
@@ -144,5 +144,5 @@ fig.subplots_adjust(
     hspace=0.0,
     wspace=0.2)
 
-fig.savefig(f"{fig_name}",dpi=300)
+fig.savefig(f"{fig_name}",dpi=150)
 plt.show()
