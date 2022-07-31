@@ -132,5 +132,5 @@ fig.subplots_adjust(
     right=0.99,
     hspace=0.155,
     wspace=0.2)
-fig.savefig(f"{fig_name}")
+fig.savefig(f"{fig_name}",dpi=300)
 plt.show()
