@@ -18,7 +18,7 @@ Step by step procedure to setup Helvetica fonts with matplotlib is as follows
 1. Extract all [Helvetica](./Helvetica-Font-Family.zip) fonts.
 2. Find matplotlib fonts folder.
 
-Generally matplotlib access the fonts from `{active-env}/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf`. If this directory does not work then find path by these commands
+Generally matplotlib access the fonts from `{active-env}/lib/python3.10/site-packages/matplotlib/mpl-data/fonts/ttf` on Linux or `{active-env}\Lib\site-packages\matplotlib\mpl-data\fonts` on Windows. If this directory does not work then find path by these commands
 
 ```Python
 import matplotlib

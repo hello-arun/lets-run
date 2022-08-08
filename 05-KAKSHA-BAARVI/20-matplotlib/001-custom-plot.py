@@ -92,11 +92,10 @@ def set_legend(axes):
 # Just replace whatever above this part to change plot stying
 subplots = [2, 2]
 figsize = [185, 185]  # in mm
-fig_name = "001-example.png"
 labels = [
-    [["$x_{11}$", r"Strain $\epsilon_{xy}$"], [
+    [[r"$\epsilon_{11}$", r"$\mathregular{\epsilon_{11}}$"], [
         r"$\sin(\theta_{x\mathrm{y}})$", "y12"]],
-    [["Stress", "Strain"], [r"$\sin(\theta_{x\mathrm{y}})$", "y22"]],
+    [["Stress", "Strain"], [r"$\mathregular{sin(\theta_{xy}})}$", "y22"]],
 ]  # [[[xlabel,ylabel]]]
 limits = [
     [[0, 9, -2, 12], [-1, 11, -1, 10]],
@@ -132,5 +131,5 @@ fig.subplots_adjust(
     right=0.99,
     hspace=0.155,
     wspace=0.2)
-fig.savefig(f"{fig_name}",dpi=50)
+fig.savefig("001-custom-plot.png",dpi=100)
 plt.show()
