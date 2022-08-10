@@ -1,14 +1,16 @@
-ffmpeg -i '1- Introduction.mp4' `
--i '2- Building Blocks of Angular Apps.mp4' `
--i '3- Creating Components.mp4' `
--i '4- Creating Components Using Angular CLI.mp4' `
--i '5- Templates.mp4' `
--i '6- Directives.mp4' `
--i '7- Services.mp4' `
--i '8- Dependency Injection.mp4' `
--i '9- Generating Services Using Angular CLI.mp4' `
--i '10- Exercise- Authors.mp4' `
--i '11- Solution.mp4' `
+ffmpeg -i '01- Introduction.mp4' `
+-i '02- What is Automated Testing.mp4' `
+-i '03- Types of Tests.mp4' `
+-i '04- Unit Testing Fundamentals.mp4' `
+-i '05- Working with Strings and Arrays.mp4' `
+-i '06- Setup and Tear Down.mp4' `
+-i '07- Working with Forms.mp4' `
+-i '08- Working with Event Emitters.mp4' `
+-i '09- Working with Spies.mp4' `
+-i '10- Interaction Testing.mp4' `
+-i '11- Working with Confirmation Boxes.mp4' `
+-i '12- Limitations of Unit Tests.mp4' `
+-i '13- Code Coverage.mp4' `
  -filter_complex "[0:v] [0:a] `
 [1:v] [1:a] `
 [2:v] [2:a] `
@@ -20,4 +22,6 @@ ffmpeg -i '1- Introduction.mp4' `
 [8:v] [8:a] `
 [9:v] [9:a] `
 [10:v] [10:a] `
- concat=n=11:v=1:a=1 [vv] [aa]" -map "[vv]" -map "[aa]" ./merged/output.mp4
+[11:v] [11:a] `
+[12:v] [12:a] `
+ concat=n=13:v=1:a=1 [vv] [aa]" -map "[vv]" -map "[aa]" ./merged/output.mp4

@@ -1,11 +1,13 @@
 00:00:00 - Introduction
-00:00:19 - Building Blocks of Angular Apps
-00:04:01 - Creating Components
-00:13:40 - Creating Components Using Angular CLI
-00:18:22 - Templates
-00:20:51 - Directives
-00:24:18 - Services
-00:28:48 - Dependency Injection
-00:36:08 - Generating Services Using Angular CLI
-00:38:20 - Exercise- Authors
-00:38:52 - Solution
+00:01:12 - What is Automated Testing
+00:08:39 - Types of Tests
+00:14:44 - Unit Testing Fundamentals
+00:22:28 - Working with Strings and Arrays
+00:25:43 - Setup and Tear Down
+00:31:49 - Working with Forms
+00:35:19 - Working with Event Emitters
+00:38:10 - Working with Spies
+00:45:07 - Interaction Testing
+00:51:33 - Working with Confirmation Boxes
+00:54:42 - Limitations of Unit Tests
+00:56:14 - Code Coverage

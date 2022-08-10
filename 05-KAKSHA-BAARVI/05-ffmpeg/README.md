@@ -13,11 +13,11 @@ This is an add on program to merge and filter `Angular Tutorial` provided by `co
 
 ### How to run
 
-```bash
+```powershell
 # if opencv does not exist..install it via
 # pip install opencv-python 
 
 # for example
-cd "./3. Angular Fundamentals"
+cd '.\17. Unit Testing\'
 python ../process.py
 ```

@@ -1,0 +1,38 @@
+Processing 01- Introduction.mp4, 
+Res: (1280.0, 720.0)
+Processing 02- What is Automated Testing.mp4, 
+Res: (1280.0, 720.0)
+Processing 03- Types of Tests.mp4, 
+Res: (1280.0, 720.0)
+Processing 04- Unit Testing Fundamentals.mp4, 
+Res: (1280.0, 720.0)
+Processing 05- Working with Strings and Arrays.mp4, 
+Res: (1280.0, 720.0)
+Processing 06- Setup and Tear Down.mp4, 
+Res: (1280.0, 720.0)
+Processing 07- Working with Forms.mp4, 
+Res: (1280.0, 720.0)
+Processing 08- Working with Event Emitters.mp4, 
+Res: (1280.0, 720.0)
+Processing 09- Working with Spies.mp4, 
+Res: (1280.0, 720.0)
+Processing 10- Interaction Testing.mp4, 
+Res: (1280.0, 720.0)
+Processing 11- Working with Confirmation Boxes.mp4, 
+Res: (1280.0, 720.0)
+Processing 12- Limitations of Unit Tests.mp4, 
+Res: (1280.0, 720.0)
+Processing 13- Code Coverage.mp4, 
+Res: (1280.0, 720.0)
+
+Total Length 00:59:45
+
+To Upscale a video use 
+ffmpeg -i input.mp4 -vf scale=1280x720:flags=lanczos output_1080p.mp4
+
+To merge see merge-command.txt file
+type merge-command.txt
+
+or
+
+ffmpeg.exe -safe 0 -f concat -i file-list.txt -c copy ./merged/output.mp4
