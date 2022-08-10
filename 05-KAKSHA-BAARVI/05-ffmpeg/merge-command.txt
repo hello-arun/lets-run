@@ -1,0 +1,23 @@
+ffmpeg -i '1- Introduction.mp4' `
+-i '2- Building Blocks of Angular Apps.mp4' `
+-i '3- Creating Components.mp4' `
+-i '4- Creating Components Using Angular CLI.mp4' `
+-i '5- Templates.mp4' `
+-i '6- Directives.mp4' `
+-i '7- Services.mp4' `
+-i '8- Dependency Injection.mp4' `
+-i '9- Generating Services Using Angular CLI.mp4' `
+-i '10- Exercise- Authors.mp4' `
+-i '11- Solution.mp4' `
+ -filter_complex "[0:v] [0:a] `
+[1:v] [1:a] `
+[2:v] [2:a] `
+[3:v] [3:a] `
+[4:v] [4:a] `
+[5:v] [5:a] `
+[6:v] [6:a] `
+[7:v] [7:a] `
+[8:v] [8:a] `
+[9:v] [9:a] `
+[10:v] [10:a] `
+ concat=n=11:v=1:a=1 [vv] [aa]" -map "[vv]" -map "[aa]" ./merged/output.mp4
