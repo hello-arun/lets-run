@@ -24,4 +24,4 @@ ffmpeg -i '01- Introduction.mp4' `
 [10:v] [10:a] `
 [11:v] [11:a] `
 [12:v] [12:a] `
- concat=n=13:v=1:a=1 [vv] [aa]" -map "[vv]" -map "[aa]" ./merged/output.mp4
+ concat=n=13:v=1:a=1 [vv] [aa]" -map "[vv]" -map "[aa]" -r 30 ./merged/output.mp4

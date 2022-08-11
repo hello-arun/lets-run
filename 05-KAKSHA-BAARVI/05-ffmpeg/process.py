@@ -61,7 +61,8 @@ with open("./merged/meta-data.txt","w") as metafile:
     metafile.write(meta_data)
 with open("./file-list.txt","w") as metafile:
     metafile.write(filelist)
-message=f"ffmpeg {filestr} -filter_complex \"{filterstr} concat=n={i}:v=1:a=1 [vv] [aa]\" -map \"[vv]\" -map \"[aa]\" ./merged/output.mp4"
+message=f"ffmpeg {filestr} -filter_complex \"{filterstr} concat=n={i}:v=1:a=1 [vv] [aa]\" -map \"[vv]\" -map \"[aa]\" -r 30 ./merged/output.mp4"
+# -r 30 means 30 FPS
 with open("./merge-command.txt","w") as command_file:
     command_file.write(message)
 
