@@ -24,6 +24,8 @@ Temporary format without supression
  [7.853e+02 8.540e+02 4.942e+02 8.466e+02 7.965e+01]
  [5.052e+02 6.529e+01 4.281e+02 9.653e+01 1.272e+02]] 
 
+Manual formatting
+x.yf format means total "x" chars out of which "y" are decimals
 Manual Formatting 10.3f with end=""
      0.000    25.926   549.662   435.322   420.368
    330.335   204.649   619.271   299.655   266.827
@@ -37,3 +39,11 @@ Manual Formatting 08.3f with end=" "
 0621.134 0529.142 0134.580 0513.578 0184.440 
 0785.335 0853.975 0494.237 0846.561 0079.645 
 0505.246 0065.287 0428.122 0096.531 0127.160 
+
+Manual Formatting first two column with 7.2f and last three with 9.4f
+x.yf format means total "x" chars out of which "y" are decimals
+   0.00  25.93 549.6625 435.3224 420.3678
+ 330.33 204.65 619.2710 299.6547 266.8273
+ 621.13 529.14 134.5799 513.5781 184.4399
+ 785.34 853.98 494.2368 846.5615  79.6455
+ 505.25  65.29 428.1223  96.5309 127.1600
