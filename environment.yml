@@ -3,16 +3,24 @@ channels:
   - defaults
   - conda-forge
 dependencies:
+# Basics
   - python
   - pip
   - autopep8
+# Data manupulation
   - numpy
   - scipy
   - ase
   - pandas
+# Plot
   - matplotlib
   - plotly::plotly
+  - plotly::chart-studio
+  - conda-forge::cufflinks-py
+  - seaborn
+# Geometry
   - shapely
+# Notebook
   - jupyterlab
   - jupyterlab-git
   - jupyterlab-nvdashboard
