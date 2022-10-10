@@ -1,0 +1,20 @@
+name: basic
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python
+  - pip
+  - autopep8
+  - numpy
+  - scipy
+  - ase
+  - pandas
+  - matplotlib
+  - plotly::plotly
+  - shapely
+  - jupyterlab
+  - jupyterlab-git
+  - jupyterlab-nvdashboard
+  - jupyterlab-lsp
+  - pymatgen
