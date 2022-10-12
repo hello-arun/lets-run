@@ -1,48 +1,36 @@
-# Using binary search in the sorted array is very efficient
-# but can we utilise power of binary search in the pivot array?
-# I think that i need to find the pivot point in first place
-# then i can utilise power of binary search in two diffetent
-# parts
 
-arr = [5, 6, 7, 8, 9, 10, 1, 1, 3]
-key = 3
-print(arr)
-# finding the pivot index
-def find_pivot(arr):
-    l,r=0,len(arr)-1
-    while(l<r):
-        mid=(r+l)//2
-        if (r==l+1):
-            return r
-        if arr[mid]>arr[r]:
-            l=mid+1
+def bin_search(arr, key):
+    l, r = 0, len(arr)-1
+    while (l <= r):
+        mid = (l+r)//2
+        # check if mid element is the key
+        if (arr[mid] == key):
+            return mid
+        # if we reached so far then mid element is useless to us; we will discard it
+        # Now we know that at least one of left/right subarr will be sorted
+        # lets check if left subarr is sorted
+        if arr[l] < arr[mid]:
+            # if we reached so far we know that we are in the sorted subarr
+            # We check if key can be found in left subarr
+            if key <= arr[mid] and key < arr[mid]:
+                r = mid-1
+            # if given key is out of range of this left subarr switch to right subarr
+            else:
+                l = mid+1
+        # if left arr is not sorted then right subarr will defineltely be
         else:
-            r=mid
+            # We check if key can be found in right subarr
+            if key <= arr[r] and key > arr[mid]:
+                l = mid+1
+            # if given key is out of range of this right subarr switch to left subarr
+            else:
+                r = mid-1
+    # if we cant find anything so far, user is useless
+    return -1
 
-# binary search based on left and right index
-def bin_search(arr,element,l,r):
-    while l <= r:
-        mid = (r+l) // 2
- 
-        # if element at mid
-        if arr[mid] == element:
-            return mid 
-        # If element is greater, ignore left half
-        elif arr[mid] < element:
-            l = mid + 1 
-        # If x is smaller, ignore right half
-        else:
-            r = mid - 1
-    return None
 
-pivot=find_pivot(arr)
-print("pivot index",pivot)
-index = bin_search(arr,key,0,pivot-1) 
-if index is not None:
-    print("found at",index)
-else:
-    index = bin_search(arr,key,pivot,len(arr)-1)
-    if index is not None:
-        print("found at",index)
-    else:
-        print("Not exists")
+if __name__ == "__main__":
+    arr = [6, 7, 8, 9, 1, 2, 3, 4, 5]
+    key = 1
+    index = bin_search(arr, key)
+    print(f"index of {key} in given arr is {index}")
