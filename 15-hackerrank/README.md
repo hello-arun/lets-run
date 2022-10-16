@@ -121,3 +121,56 @@ if __name__ == "__main__":
     print(round(np.std(arr,axis=None),11))
 
 ```
+## Magic Square
+https://www.hackerrank.com/challenges/magic-square-forming
+
+```python
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+#
+# Complete the 'formingMagicSquare' function below.
+#
+# The function is expected to return an INTEGER.
+# The function accepts 2D_INTEGER_ARRAY s as parameter.
+#
+
+def formingMagicSquare(s):
+    magicSqs=[[8,1,6,7,2,9,4,3],[8,3,4,9,2,7,6,1]]
+    mincost=100
+    for i in range(4):
+        print(magicSqs)
+        for mgcsq in magicSqs:
+            cost = abs(mgcsq[0]-s[0][0])+abs(mgcsq[1]-s[1][0])+abs(mgcsq[2]-s[2][0])\
+            +abs(mgcsq[3]-s[2][1])+abs(mgcsq[4]-s[2][2])\
+            +abs(mgcsq[5]-s[1][2])+abs(mgcsq[6]-s[0][2])+abs(mgcsq[7]-s[0][1])
+            print(cost)
+            if cost<mincost:
+                mincost=cost
+        magicSqs[0]=magicSqs[0][2:]+magicSqs[0][:2]
+        magicSqs[1]=magicSqs[1][2:]+magicSqs[1][:2]
+    return mincost+abs(5-s[1][1])
+    # Write your code here
+
+
+
+
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+    
+    s = []
+
+    for _ in range(3):
+        s.append(list(map(int, input().rstrip().split())))
+
+    result = formingMagicSquare(s)
+
+    fptr.write(str(result) + '\n')
+
+    fptr.close()
+
+```
