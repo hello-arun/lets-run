@@ -174,3 +174,67 @@ if __name__ == '__main__':
     fptr.close()
 
 ```
+
+
+
+## morgan-and-a-string
+https://www.hackerrank.com/challenges/morgan-and-a-string/problem
+```python
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+#
+# Complete the 'morganAndString' function below.
+#
+# The function is expected to return a STRING.
+# The function accepts following parameters:
+#  1. STRING a
+#  2. STRING b
+#
+
+def morganAndString(a, b):
+    i,j=0,0
+    res=""
+    a+="z"
+    b+="z"
+    while i<len(a)-1 and j<len(b)-1:
+        if (a[i]<b[j]):
+            res+=a[i]
+            i+=1
+        elif a[i]>b[j]:
+            res+=b[j]
+            j+=1
+        else:
+            if a[i:] > b[j:]:
+                res+=b[j]
+                j+=1
+            else:
+                res+=a[i]
+                i+=1
+    res+=a[i:-1]+b[j:-1]
+    return res
+    # Write your code here
+
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    t = int(input().strip())
+
+    for t_itr in range(t):
+        a = input()
+
+        b = input()
+
+        result = morganAndString(a, b)
+
+        fptr.write(result + '\n')
+
+    fptr.close()
+
+```
+
