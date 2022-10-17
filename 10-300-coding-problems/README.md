@@ -10,8 +10,8 @@ The problems are provided by [Apna-College](https://www.youtube.com/c/ApnaColleg
 [problem pdf](./__ref/DSA-by-Apna-College.pdf) can be opened and read in VS-code by using add on [analytic-signal.preview-pdf](https://marketplace.visualstudio.com/items?itemName=analytic-signal.preview-pdf)
 
 <!-- Total 300 Problems -->
-## Problems ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/18)
-**10% milestone achieved**
+## Problems ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/19)
+**~20% milestone achieved**
 
 - [x] 10-001-max-min-array
 - [x] 10-002-rev-array
@@ -51,9 +51,9 @@ The problems are provided by [Apna-College](https://www.youtube.com/c/ApnaColleg
 - [x] 15-008-longest-non-repeating-substr
 - [x] **15-009-longest-repeating-char-replacement**
 (Understand it's soul, mind bending)
-- [ ] 15-010
-- [ ] 15-011
-- [ ] 15-012
+- [x] 15-010-group-anagram
+- [x] 15-011-longest-palindrom-substr
+- [x] 15-012-total-palindromic-substr
 - [ ] 15-013
 - [ ] 15-014
 - [ ] 15-015
