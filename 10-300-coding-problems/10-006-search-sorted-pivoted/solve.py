@@ -9,10 +9,10 @@ def bin_search(arr, key):
         # if we reached so far then mid element is useless to us; we will discard it
         # Now we know that at least one of left/right subarr will be sorted
         # lets check if left subarr is sorted
-        if arr[l] < arr[mid]:
+        if arr[l] <= arr[mid]:
             # if we reached so far we know that we are in the sorted subarr
             # We check if key can be found in left subarr
-            if key <= arr[mid] and key < arr[mid]:
+            if key < arr[mid] and key >= arr[l]:
                 r = mid-1
             # if given key is out of range of this left subarr switch to right subarr
             else:
@@ -30,7 +30,7 @@ def bin_search(arr, key):
 
 
 if __name__ == "__main__":
-    arr = [6, 7, 8, 9, 1, 2, 3, 4, 5]
+    arr = [3,1]
     key = 1
     index = bin_search(arr, key)
     print(f"index of {key} in given arr is {index}")

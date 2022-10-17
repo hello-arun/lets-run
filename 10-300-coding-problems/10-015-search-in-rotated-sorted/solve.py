@@ -1,44 +1,30 @@
 # As submitted by me on https://leetcode.com/problems/search-in-rotated-sorted-array/submissions/
 class Solution:
-    def search(self, nums: List[int], target: int) -> int:
-        pivot=self.find_pivot(nums)
-        print("pivot index",pivot)
-        index = self.bin_search(nums,target,0,max(pivot-1,0))
-        if index is not None:
-            return index
-        else:
-            index = self.bin_search(nums,target,pivot,len(nums)-1)
-            if index is not None:
-                return index
+    def search(self, arr: List[int], key: int) -> int:
+        l, r = 0, len(arr)-1
+        while (l <= r):
+            mid = (l+r)//2
+            # check if mid element is the key
+            if (arr[mid] == key):
+                return mid
+            # if we reached so far then mid element is useless to us; we will discard it
+            # Now we know that at least one of left/right subarr will be sorted
+            # lets check if left subarr is sorted
+            if arr[l] <= arr[mid]:
+                # if we reached so far we know that we are in the sorted subarr
+                # We check if key can be found in left subarr
+                if key < arr[mid] and key >= arr[l]:
+                    r = mid-1
+                # if given key is out of range of this left subarr switch to right subarr
+                else:
+                    l = mid+1
+            # if left arr is not sorted then right subarr will defineltely be
             else:
-                return -1
-
-    def find_pivot(self,arr):
-        l,r=0,len(arr)-1
-        if arr[l]<=arr[r]:
-            return 0
-        while(l<r):
-            mid=(r+l)//2
-            if arr[mid]>arr[r]:
-                l=mid
-            else:
-                r=mid
-            if r==l+1:
-                return r
-            
-
-    def bin_search(self,arr,element,l,r):
-        while l <= r:
-            mid = (r+l) // 2
-
-            # if element at mid
-            if arr[mid] == element:
-                return mid 
-            # If element is greater, ignore left half
-            elif arr[mid] < element:
-                l = mid + 1 
-            # If x is smaller, ignore right half
-            else:
-                r = mid - 1
-        return None
-
+                # We check if key can be found in right subarr
+                if key <= arr[r] and key > arr[mid]:
+                    l = mid+1
+                # if given key is out of range of this right subarr switch to left subarr
+                else:
+                    r = mid-1
+        # if we cant find anything so far, user is useless
+        return -1
