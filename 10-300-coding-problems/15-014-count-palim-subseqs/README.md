@@ -4,7 +4,7 @@ https://practice.geeksforgeeks.org/problems/count-palindromic-subsequences/
 We aim to solve it via recursion, dynamic programming  
 Understanding Recursive algorithm is the best part here  
 ```
-count[i,j] = #palindromic substring from index i to jth both included
+count[i,j] = #palindromic subseqs from index i to jth both included
 ```
 if i==j; count = 1 , otherwise  
 We can think that  
