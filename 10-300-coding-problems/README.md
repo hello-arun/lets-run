@@ -10,8 +10,8 @@ The problems are provided by [Apna-College](https://www.youtube.com/c/ApnaColleg
 [problem pdf](./__ref/DSA-by-Apna-College.pdf) can be opened and read in VS-code by using add on [analytic-signal.preview-pdf](https://marketplace.visualstudio.com/items?itemName=analytic-signal.preview-pdf)
 
 <!-- Total 300 Problems -->
-## Problems ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/19)
-**~20% milestone achieved**
+## Problems ![](https://us-central1-progress-markdown.cloudfunctions.net/progress/23)
+**>20% milestone achieved**
 
 - [x] 10-001-max-min-array
 - [x] 10-002-rev-array
@@ -52,9 +52,9 @@ The problems are provided by [Apna-College](https://www.youtube.com/c/ApnaColleg
 - [x] **15-009-longest-repeating-char-replacement**
 (Understand it's soul, mind bending)
 - [x] 15-010-group-anagram
-- [x] 15-011-longest-palindrom-substr
-- [x] 15-012-total-palindromic-substr
-- [ ] 15-013
+- [x] **15-011-longest-palindrom-substr**
+- [x] **15-012-total-palindromic-substr**
+- [x] 15-013-next-permutation(repeat 10-007)
 - [ ] 15-014
 - [ ] 15-015
 - [ ] 15-016
@@ -388,14 +388,14 @@ The problems are provided by [Apna-College](https://www.youtube.com/c/ApnaColleg
 - [ ] 75-053
 - [ ] 75-054
 
-- [ ] 80-001
+- [x] 80-001-count-set-bits-001
 - [ ] 80-002
-- [ ] 80-003
-- [ ] 80-004
-- [ ] 80-005
-- [ ] 80-006
-- [ ] 80-007
-- [ ] 80-008
+- [x] 80-003-power-of-two
+- [x] 80-004-position-only-set
+- [x] 80-005-count-bit-flips
+- [x] 80-006-total-set-bits-1-to-n
+- [x] 80-007-copy-set-bits
+- [x] 80-008-square-wout-mul
 - [ ] 80-009
 - [ ] 80-010
 
