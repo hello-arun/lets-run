@@ -47,3 +47,9 @@ conda env remove --prefix ./env
 # or to remove from conda env dirs
 conda env remove --name basic
 ```
+
+## Quick Tips Linux
+### To Analyse disc storage
+```bash
+du -sh ./* | sort  -rh
+```
