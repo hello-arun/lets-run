@@ -51,5 +51,12 @@ conda env remove --name basic
 ## Quick Tips Linux
 ### To Analyse disc storage
 ```bash
+# To Display dirs in descending order of disc storage used
 du -sh ./* | sort  -rh
+
+# To list all folders with name wfc-out in all sub-folders
+find . -name "wfc-out"
+
+# To remove all folders with name wfc-out in all sub-folders
+rm -r $(find . -name "wfc-out")
 ```
